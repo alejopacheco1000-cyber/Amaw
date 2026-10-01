@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.zerafix.catresolution'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.zerafix.catresolution'
+        minSdk 23
+        targetSdk 29
+        versionCode 1
+        versionName '1.0'
+    }
+}
